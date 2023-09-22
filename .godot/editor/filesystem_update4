@@ -2,3 +2,5 @@ res://scenes/level.tscn
 res://scripts/Level.gd
 res://scenes/player.tscn
 res://scripts/player.gd
+res://scripts/jump_pad.gd
+res://scenes/jump_pad.tscn
