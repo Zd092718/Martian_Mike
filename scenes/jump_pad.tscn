@@ -87,6 +87,7 @@ script = ExtResource("1_bljt7")
 sprite_frames = SubResource("SpriteFrames_ijnge")
 animation = &"jump"
 autoplay = "idle"
+speed_scale = 1.2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(-0.5, 6.5)
