@@ -18,15 +18,11 @@ func _physics_process(delta):
 		jump(jump_force)
 		
 	var direction = Input.get_axis("move_left", "move_right")
-	if direction != 0:
-		animated_sprite.flip_h = (direction == -1)
 	velocity.x = direction * speed
-#	if velocity.x > 0 && is_on_floor():
-#		animated_sprite.play("run")
-#	elif velocity.x < 0 && is_on_floor():
-#		animated_sprite.play("run")
-#	else:
-#		animated_sprite.play("idle")
+	if velocity.x > 0:
+		animated_sprite.flip_h = false
+	elif velocity.x < 0:
+		animated_sprite.flip_h = true
 	move_and_slide()
 	
 	update_animations(direction)
