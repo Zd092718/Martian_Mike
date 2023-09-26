@@ -1,8 +1,7 @@
-res://scenes/level.tscn
+res://scenes/spikeball.tscn
 res://scripts/Level.gd
+res://scenes/level.tscn
 res://scenes/player.tscn
 res://scenes/jump_pad.tscn
-res://scripts/player.gd
 res://scenes/saw.tscn
-res://scripts/trap.gd
-res://scenes/spikeball.tscn
+res://scenes/tile_map.tscn
