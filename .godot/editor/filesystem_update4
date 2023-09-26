@@ -1,9 +1,10 @@
-res://scenes/spikeball.tscn
+res://scenes/start.tscn
 res://scripts/Level.gd
+res://scripts/start.gd
 res://scenes/level.tscn
-res://scenes/player.tscn
-res://scenes/jump_pad.tscn
-res://scenes/saw.tscn
-res://scenes/tile_map.tscn
 res://scenes/bg.tscn
-res://scripts/bg.gd
+res://scenes/player.tscn
+res://scenes/exit.tscn
+res://scripts/exit.gd
+res://scripts/player.gd
+res://scenes/level_2.tscn
