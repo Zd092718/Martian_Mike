@@ -1,10 +1,8 @@
-res://scenes/start.tscn
 res://scripts/Level.gd
-res://scripts/start.gd
+res://scenes/level_3.tscn
 res://scenes/level.tscn
 res://scenes/bg.tscn
+res://scenes/start.tscn
 res://scenes/player.tscn
 res://scenes/exit.tscn
-res://scripts/exit.gd
-res://scripts/player.gd
 res://scenes/level_2.tscn
