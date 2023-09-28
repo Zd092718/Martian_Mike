@@ -57,10 +57,12 @@ func _process(delta):
 
 
 func _on_deathzone_body_entered(body):
+	AudioPlayer.play_sfx(AudioPlayer.SFX.HURT)
 	reset_player()
 
 
 func _on_trap_touched_player():
+	AudioPlayer.play_sfx(AudioPlayer.SFX.HURT)
 	reset_player()
 
 func reset_player():
